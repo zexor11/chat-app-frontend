@@ -2,7 +2,7 @@ import "./App.css";
 import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./Chat";
-
+/*Now going to add backend*/
 const socket = io.connect("https://chat-app-back-y1z6.onrender.com");
 
 function App() {
